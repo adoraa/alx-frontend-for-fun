@@ -1,0 +1,9 @@
+/* loop photos with @each */
+
+@import '11-photos';
+
+@each $item in $list_names {
+  .photo-#{$item} {
+    .background: image-url("photos/#{$item}.jpg");  
+  }
+}
