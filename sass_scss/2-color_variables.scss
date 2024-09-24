@@ -1,0 +1,17 @@
+/* declasre two variables and style different tags */
+
+$color: #3D3D3D;
+$background: #6D6D6D;
+
+body {
+  background-color: $background;
+  color: $color;
+}
+
+p {
+  color: $color;
+}
+
+h2 {
+  background-color: $background;
+}
